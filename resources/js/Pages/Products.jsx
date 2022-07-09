@@ -22,6 +22,7 @@ export default function Products({ products }) {
     return (
         <>
             <Head title="Cart Shop" />
+
             <Navbar>
                 <div className="mb-2 sm:mb-0">
                     <h1 className="text-2xl no-underline text-white hover:text-blue-dark font-bold">
