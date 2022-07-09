@@ -31,6 +31,18 @@ class Products
             "img" => "https://cdn.shopify.com/s/files/1/0895/1746/products/Vaso_01_1728x.jpg?v=1571828828",
             "price" => 82,
             "title" => "Titanium Cookset 4"
+        ],
+        [
+            "id" => "5",
+            "img" => "https://cdn.shopify.com/s/files/1/0895/1746/products/Vaso_01_1728x.jpg?v=1571828828",
+            "price" => 92,
+            "title" => "Titanium Cookset 5"
+        ],
+        [
+            "id" => "6",
+            "img" => "https://cdn.shopify.com/s/files/1/0895/1746/products/Vaso_01_1728x.jpg?v=1571828828",
+            "price" => 102,
+            "title" => "Titanium Cookset 6"
         ]
     ];
 
