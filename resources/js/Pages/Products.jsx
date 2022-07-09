@@ -10,6 +10,22 @@ import CartListFooter from "@/Components/cartListFooter";
 
 export default function Products({ products }) {
     const [isOpen, setIsOpen] = useState(false);
+    const [listMyCart, setListMyCart] = useState([
+        {
+            id: "1",
+            img: "https://cdn.shopify.com/s/files/1/0895/1746/products/Vaso_01_1728x.jpg?v=1571828828",
+            price: 52,
+            title: "Titanium Cookset",
+            quantity: 3,
+        },
+        {
+            id: "2",
+            img: "https://cdn.shopify.com/s/files/1/0895/1746/products/Vaso_01_1728x.jpg?v=1571828828",
+            price: 62,
+            title: "Titanium Cookset 2",
+            quantity: 2,
+        },
+    ]);
 
     const handleOpenSidebar = () => {
         setIsOpen(true);
@@ -44,9 +60,10 @@ export default function Products({ products }) {
 
             <CartListWrapper isOpen={isOpen}>
                 <CartListHeader onClick={handleCloseSideBar} />
-
-                <CartListBody />
-
+                <CartListBody
+                    listMyCart={listMyCart}
+                    setListMyCart={setListMyCart}
+                />
                 <CartListFooter />
             </CartListWrapper>
         </>
