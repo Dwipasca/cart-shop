@@ -49,7 +49,7 @@ export default function Products({ products }) {
       <CartListWrapper isOpen={isOpen}>
         <CartListHeader onClick={handleCloseSideBar} />
         <CartListBody listMyCart={listMyCart} setListMyCart={setListMyCart} />
-        <CartListFooter />
+        <CartListFooter listMyCart={listMyCart} />
       </CartListWrapper>
     </>
   )
