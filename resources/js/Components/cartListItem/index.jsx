@@ -4,9 +4,7 @@ import Button from "../button";
 import Input from "../input";
 
 function CartListItem({ cartItem, setListMyCart }) {
-    const [quantity, setQuantity] = useState(1);
-
-    const { title, img, price } = cartItem;
+    const { title, img, price, quantity } = cartItem;
 
     const handleQuantity = (e) => {
         e.preventDefault();

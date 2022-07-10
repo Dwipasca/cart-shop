@@ -35,6 +35,8 @@ export default function Products({ products }) {
         setIsOpen(false);
     };
 
+    console.log(listMyCart);
+
     return (
         <>
             <Head title="Cart Shop" />
@@ -55,7 +57,11 @@ export default function Products({ products }) {
             </Navbar>
 
             <section className="flex justify-center min-h-screen min-w-screen py-12 ">
-                <ProductList products={products} />
+                <ProductList
+                    products={products}
+                    listMyCart={listMyCart}
+                    setListMyCart={setListMyCart}
+                />
             </section>
 
             <CartListWrapper isOpen={isOpen}>
