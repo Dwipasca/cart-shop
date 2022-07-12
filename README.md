@@ -1,4 +1,4 @@
-# Cart Shop Laravel + ReactJS
+# Cart Shop
 
 ## Screenshoot
 <img width="1257" alt="Screen Shot 2022-07-10 at 22 38 05" src="https://user-images.githubusercontent.com/19584291/178149549-df50ab86-4d13-4430-9159-af109d8213f5.png">
@@ -10,7 +10,7 @@
 ## Depp or Lib I use
 
 - Composer 2.3.9
-- Node versi 18.15.1
+- Node versi 16.15.1
 - Laravel 9 + Vite React JS (https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia)
   after following the documentation, the project will automatic add inertia, tailwindcss, axios, etc.
 
